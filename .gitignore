@@ -1,0 +1,37 @@
+# CLion/IntelliJ IDEA specific
+.idea/
+cmake-build-*/
+
+# Build directories
+build/
+out/
+
+# Visual Studio specific
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Compiled Object files
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Compiled Static libraries
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+!CMakeLists.txt
